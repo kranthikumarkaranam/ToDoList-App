@@ -23,7 +23,7 @@ If you have any suggestions or improvements for this web page, feel free to cont
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 ## Credits
-This app was built by Kranthi Kumar Karanam.
+This app was built by ** Kranthi Kumar Karanam **.
 
 
 
