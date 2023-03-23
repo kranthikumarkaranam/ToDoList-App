@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set the character encoding to UTF-8 -->
+    <meta charset="UTF-8">
+    <!-- Use the latest version of Internet Explorer -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Set the viewport for mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the page -->
+    <title>To Do List App</title>
+    <!-- Link to the stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to the Poppins font from Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <!-- Create a header section with an input field and a button to add a new task -->
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+    <!-- Create an unordered list for the tasks to be displayed -->
+    <ul id="myUL">
+        <!-- List items will be added here -->
+    </ul>
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>    
+</body>
+</html>
